@@ -1,0 +1,40 @@
+{
+  "name": "insight-lux-ui",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the luxcoin network and build your own services with it.",
+  "version": "0.4.6",
+  "repository": "git://github.com/216k155/insight-lux-ui.git",
+  "contributors": [
+    {
+      "name": "216k155",
+      "email": "216k155@i2pd.net"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/bitpay/insight-ui/issues"
+  },
+  "homepage": "https://github.com/216k155/insight-lux-ui",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "luxcoin",
+    "luxcore",
+    "front-end"
+  ],
+  "bitcoreNode": "luxcore-node",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}
